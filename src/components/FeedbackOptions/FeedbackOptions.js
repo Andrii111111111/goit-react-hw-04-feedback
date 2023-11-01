@@ -1,7 +1,7 @@
 import { ButtonWraper } from './FeedbackOptions.styled';
 import { nanoid } from 'nanoid';
 import titleize from 'titleize';
-
+console.log();
 export const FeedbackOptions = ({ leaveFeedback, options }) => {
   return (
     <ButtonWraper>
